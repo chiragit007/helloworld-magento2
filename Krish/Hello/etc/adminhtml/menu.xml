@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Krish_Hello::hello" title="KrishINC" module="Krish_Hello" sortOrder="30" resource="Krish_Hello::hello"/>
+        <add id="Krish_Hello::manage_items" title="All Items" module="Krish_Hello" sortOrder="10" parent="Krish_Hello::hello" action="hello/index/" resource="Krish_Hello::hello"/>
+    </menu>
+</config>
